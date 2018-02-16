@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+header {
+	background: url("../img/header.png") no-repeat left center /cover;
+	width: 78%;
+	height: 100px;
+	margin: auto;
+}
+
+.text-decr {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 27px;
+}
+
+.head-text {
+	text-align: center;
+}
+
+ul {
+	padding-left: 60px;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.container-item {
+	float: left;
+	margin-left: 27px;
+	margin-bottom: 27px;
+}
+
+.down-title {
+	font-weight: bold;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+}
+
+button {
+	width: 100%;
+	height: 40px;
+	border-style: none;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #FF6347;
+	cursor: pointer;
+}
+
+button:hover {
+	filter: contrast(150%);
+}
+
+.footer-wrap {
+	position: relative;
+	width: 78%;
+	height: 200px;
+	background: #4682B4;
+	margin: auto auto 27px auto;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 3px;
+}
+
+.icon-bar {
+	text-align: center;
+}
+
+.footer-text {
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.footer-text a:last-child {
+	color: #fff;
+}
